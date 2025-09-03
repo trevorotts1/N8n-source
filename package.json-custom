@@ -1,0 +1,10 @@
+{
+  "name": "n8n-deployment",
+  "private": true,
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "latest"
+  }
+}

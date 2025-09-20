@@ -5,6 +5,8 @@
     "start": "n8n start"
   },
   "dependencies": {
-    "n8n": "latest"
+    "n8n": "latest",
+    "sqlite3": "^5.1.6"
   }
 }
+

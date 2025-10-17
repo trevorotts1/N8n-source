@@ -3,4 +3,5 @@ USER root
 RUN apk add --no-cache ffmpeg \
  && mkdir -p /home/node/.n8n \
  && chown -R node:node /home/node
+ && chown -R node:node /opt/.n8n
 USER node

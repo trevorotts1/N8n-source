@@ -1,4 +1,4 @@
 # crontab for root user on Alpine
 # Run backup every day at 03:00 UTC
 
-0 3 * * * /usr/local/bin/backup.sh >> /var/log/n8n-backup.log 2>&1
+0 9 * * * /usr/local/bin/backup.sh >> /var/log/n8n-backup.log 2>&1

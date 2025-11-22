@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/sh
 set -e
 
 echo "[entrypoint] Starting crond..."
-crond -l 2 -d 8
+crond -l 2 -d 8 &
 
 echo "[entrypoint] Starting n8n..."
 exec n8n start
